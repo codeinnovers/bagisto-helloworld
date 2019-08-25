@@ -1,0 +1,24 @@
+{
+    "name": "mega/helloworld",
+    "description": "Bagisto Hello World",
+    "authors": [
+        {
+            "name": "Team CodeInnovers",
+            "email": "codeinnovers@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mega\\HelloWorld\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mega\\HelloWorld\\Providers\\HelloWorldServiceProvider"
+            ]
+        }
+    }
+}
